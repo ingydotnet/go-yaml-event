@@ -31,9 +31,9 @@ func main() {
 
 		// Print event information in YAML format
 		fmt.Printf("- Event: %v\n", event.Type)
-		fmt.Printf("  Start: {Line: %d, Column: %d}\n", 
+		fmt.Printf("  Start: {Line: %d, Column: %d}\n",
 			event.StartMark.Line+1, event.StartMark.Column)
-		fmt.Printf("  End: {Line: %d, Column: %d}\n", 
+		fmt.Printf("  End: {Line: %d, Column: %d}\n",
 			event.EndMark.Line+1, event.EndMark.Column)
 
 		// Print any comments associated with the event

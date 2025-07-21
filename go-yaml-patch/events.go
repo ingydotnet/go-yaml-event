@@ -208,4 +208,4 @@ func (p *Parser) Next() (*Event, error) {
 // Close releases the parser resources
 func (p *Parser) Close() {
 	yaml_parser_delete(&p.parser)
-} 
+}
